@@ -1,0 +1,49 @@
+.della{
+  height: 40vh;
+  width: 40%;
+}
+
+.navbar{
+  height: 30vh;
+}
+.navbar-brand{
+  font-size: 900;
+  font-weight: bolder;
+  transform: uppercase;
+}
+
+
+
+.card>p{
+  font-size: small;
+}
+.firstrow{
+  display: flex;
+  gap: 50px;}
+
+  .card{
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+}
+
+.card h2{
+  font-size: 20px;
+  text-transform: lowercase;
+  color:goldenrod;
+}
+.card p{
+  margin: 5px;
+  font-size: 25px;
+}
+.card button{
+  font-size: 20px;
+  width: 150px;
+  margin-left: 120px;
+  background-color: darkorange;
+  color: white;
+}
