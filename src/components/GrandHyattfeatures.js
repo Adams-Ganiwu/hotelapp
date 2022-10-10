@@ -4,10 +4,12 @@ import backview from '../hyat/backview.jpg'
 import carpark from '../hyat/carpark.jpg'
 import entrance from '../hyat/entrance.jpg'
 import chips from '../hyat/chips.jpg'
+import NavBar from './NavBar';
 
 function GrandHyattfeatures() {
   return (
     <div>
+      <NavBar/>
     <div>
       <h1>just have a warmly wellcome to  the surroundies of GrandHyatt</h1>
     </div>

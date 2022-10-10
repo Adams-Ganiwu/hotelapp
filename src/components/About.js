@@ -1,11 +1,19 @@
 import React from 'react'
+import NavBar from './NavBar';
 
 function About() {
   return (
     <div>
-      <h1>we provides you with geniue hotel booking at your confort zone</h1>
+       <NavBar/>
+      <h3>you can reach us through 0540604084 or 0557135492
+        Gmail     gamsondamsel67@gmail.com
+                Gamson Damsel @ Faceebook</h3>
     </div>
   )
 }
 
 export default About
+
+
+
+

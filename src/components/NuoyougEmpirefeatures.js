@@ -4,11 +4,13 @@ import washroom from '../nuoyong/washroom.jpg';
 import front from '../nuoyong/front.png';
 import bed from '../nuoyong/bed.jpg';
 import food from '../nuoyong/food.jpg'
+import NavBar from './NavBar';
 
 function NuoyougEmpirefeatures() {
   return (
     <div>
-      <h1>just take a walk through nuoyong for an amazing feeling</h1>
+      <NavBar/>
+      <h3>just take a walk through nuoyong for an amazing feeling</h3>
        <div>
       <div className='firstrow'>
 

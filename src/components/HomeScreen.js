@@ -12,25 +12,26 @@ function HomeScreen() {
   return (
     <>
       <NavBar/>
-    <div>
+    <div className='firstrow'>
     
 
-    <h1>Dellagio Hotel</h1>
-      <div className='card col-3'>
-        <div>
+    
+          <div className="card">
+            <h5>Dellagio Hotel</h5>
           <img className='della' src={Dellagio} alt="no" />
           
           <p>location:Opposit SSNIT residences</p>
           <p>gps:xw-0005-6785</p>
           <p> <Link to="/dela"> Check out features </Link></p>
         </div>
-      </div>
-</div>
-    <div>
+      
+
+   
     
 
-    <h1>Nuoyong empire hotel</h1>
+   
       <div className='card'>
+         <h5>Nuoyong empire hotel</h5>
         <div>
           <img className='della' src={Nuoyong} alt="no" />
           
@@ -39,12 +40,13 @@ function HomeScreen() {
           <p> <Link to="/nuoyong"> Check out features </Link></p>
         </div>
       </div>
-</div>
+
     <div>
     
 
-    <h1>Royal Cosy Hills Hotel</h1>
+    
       <div className='card'>
+      <h5>Royal Cosy Hills Hotel</h5>
         <div>
           <img className='della' src={dubaiimage} alt="no" />
           
@@ -54,18 +56,19 @@ function HomeScreen() {
         </div>
       </div>
 </div>
-    <div>
+   
     
 
-    <h1>Grand Hyat Hotel</h1>
-      <div className='card'>
-        <div>
+    
+        <div className='card'>
+          <h5>Grand Hyat Hotel</h5>
+        
           <img className='della' src={Grand} alt="no" />
           
           <p>location:Opposit SSNIT residences</p>
           <p>gps:xw-0005-6785</p>
           <p> <Link to="/grandhyatt"> Check out features </Link></p>
-        </div>
+       
       </div>
 </div>
 </>

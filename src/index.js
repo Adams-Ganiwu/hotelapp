@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './App.css'
 import './bootstrap.min (1).css';
 import {AuthContextProvider} from "./context/Authcontext"
 import { BrowserRouter } from 'react-router-dom';

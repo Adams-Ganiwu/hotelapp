@@ -4,11 +4,12 @@ import dellagiobed from '../della/dellagiobed.jpg';
 import dellagiofntspc from '../della/dellagiofntspc.jpg';
 import foods from '../della/foods.jpg';
 import reception from '../della/reception.jpg';
-
+import NavBar from './NavBar';
 
 function Delafeature() {
   return (
     <div>
+      <NavBar/>
     <div>
           <h1>take a walk through dellagio</h1>
           

@@ -8,6 +8,11 @@ import Delafeature from './components/Delafeature';
 import Login from './screens/Login';
 import Register from './screens/Register';
 import AddHotel from './components/AddHotel';
+import About from './components/About';
+import Service from './components/Services';
+import Contact from './components/Contact';
+
+
 
 function App() {
   return (
@@ -15,14 +20,17 @@ function App() {
     
       <Routes>
       
-      <Route path="/" element={<HomeScreen/>}  />
+      <Route path="/home" element={<HomeScreen/>}  />
       <Route path="/dubaifeatures" element={<RoyalCosyHills/>}/>
       <Route path="/nuoyong" element={<NuoyougEmpirefeatures/>}/>
       <Route path="/grandhyatt" element={<GrandHyattfeatures/>}/>
         <Route path="/dela" element={<Delafeature />} />
-        <Route path="/login" element={<Login/>}/>
+        <Route path="/" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/addhotel" element={<AddHotel/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/service" element={<Service/>}/>
+        <Route path="/about" element={<About/>}/>
       
       
       </Routes>

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import NavBar  from '../components/NavBar';
 import Footer from "../components/Footer"
 
+
 function AddHotel({ submit }) {
 
   const [hotel, setAddHotel] = useState({

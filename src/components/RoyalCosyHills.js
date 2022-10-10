@@ -5,10 +5,12 @@ import view from '../dubai/view.jpeg';
 import sideview from '../dubai/sideview.jpeg';
 import MBed from '../dubai/MBed.jpeg';
 import food from '../dubai/food.jpg'
+import NavBar from './NavBar';
 
 function RoyalCosyHills() {
   return (
     <div>
+       <NavBar/>
       <h1>just take a walk through RoyalCosyHills for an amazing feeling</h1>
        <div>
       <div className='firstrow'>
