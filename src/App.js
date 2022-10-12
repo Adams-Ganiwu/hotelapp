@@ -11,7 +11,7 @@ import AddHotel from './components/AddHotel';
 import About from './components/About';
 import Service from './components/Services';
 import Contact from './components/Contact';
-
+// import Bookhotel from './components/Bookhotel'
 
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/service" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>
+        
       
       
       </Routes>

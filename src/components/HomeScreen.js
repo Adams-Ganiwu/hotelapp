@@ -19,10 +19,13 @@ function HomeScreen() {
           <div className="card">
             <h5>Dellagio Hotel</h5>
           <img className='della' src={Dellagio} alt="no" />
-          
-          <p>location:Opposit SSNIT residences</p>
+           <div className='ganew'>
+          <p>location:Danku residences</p>
           <p>gps:xw-0005-6785</p>
-          <p> <Link to="/dela"> Check out features </Link></p>
+          <p>prices ranging from Ghc100 to Ghc350</p>
+
+            <p> <Link to="/dela"> Checkout features </Link></p>
+            </div>
         </div>
       
 
@@ -34,10 +37,12 @@ function HomeScreen() {
          <h5>Nuoyong empire hotel</h5>
         <div>
           <img className='della' src={Nuoyong} alt="no" />
-          
-          <p>location:Opposit SSNIT residences</p>
-          <p>gps:xw-0005-6785</p>
-          <p> <Link to="/nuoyong"> Check out features </Link></p>
+           <div className='ganew'>
+          <p>location:wa maseRD Sombo residences</p>
+            <p>gps:xw-0005-6785</p>
+            <p>prices ranging from Ghc80 to Ghc250</p>
+              <p> <Link to="/nuoyong"> Checkout features </Link></p>
+              </div>
         </div>
       </div>
 
@@ -49,10 +54,12 @@ function HomeScreen() {
       <h5>Royal Cosy Hills Hotel</h5>
         <div>
           <img className='della' src={dubaiimage} alt="no" />
-          
-          <p>location:Opposit SSNIT residences</p>
-          <p>gps:xw-0005-6785</p>
-          <p> <Link to="/dubaifeatures"> Check out features </Link></p>
+          <div className='ganew'>
+          <p>location:Jirapa residences</p>
+              <p>gps:xw-0005-6785</p>
+              <p>prices ranging from Ghc150 to Ghc650</p>
+                <p> <Link to="/dubaifeatures"> Checkout features </Link></p>
+                </div>
         </div>
       </div>
 </div>
@@ -64,11 +71,12 @@ function HomeScreen() {
           <h5>Grand Hyat Hotel</h5>
         
           <img className='della' src={Grand} alt="no" />
-          
+           <div className='ganew'>
           <p>location:Opposit SSNIT residences</p>
           <p>gps:xw-0005-6785</p>
-          <p> <Link to="/grandhyatt"> Check out features </Link></p>
-       
+          <p>prices ranging from Ghc100 to Ghc300 </p>
+          <p> <Link to="/grandhyatt"> Checkout features </Link></p>
+       </div>
       </div>
 </div>
 </>
