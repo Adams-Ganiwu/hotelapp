@@ -8,11 +8,11 @@ import Delafeature from './components/Delafeature';
 import Login from './screens/Login';
 import Register from './screens/Register';
 import AddHotel from './components/AddHotel';
-import About from './components/About';
+import About from './components/Contact';
 import Service from './components/Services';
-import Contact from './components/Contact';
+import Contact from './components/About';
 // import Bookhotel from './components/Bookhotel'
-
+import Bookform from './components/Bookform';
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/service" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/book" element={<Bookform/>}/>
         
       
       

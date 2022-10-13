@@ -6,6 +6,7 @@ import sideview from '../dubai/sideview.jpeg';
 import MBed from '../dubai/MBed.jpeg';
 import food from '../dubai/food.jpg'
 import NavBar from './NavBar';
+import { Link } from 'react-router-dom'
 
 function RoyalCosyHills() {
   return (
@@ -58,10 +59,13 @@ function RoyalCosyHills() {
         </div>
         </div>
         
-        
-       <button>contact us</button>
     
+      </div>
+      
+ <div>
+       <button> <Link to="/book">add booking</Link>  </button>
     </div>
+
     </div>
   )
 }

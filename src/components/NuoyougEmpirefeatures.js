@@ -5,6 +5,7 @@ import front from '../nuoyong/front.png';
 import bed from '../nuoyong/bed.jpg';
 import food from '../nuoyong/food.jpg'
 import NavBar from './NavBar';
+import { Link } from 'react-router-dom'
 
 function NuoyougEmpirefeatures() {
   return (
@@ -46,11 +47,13 @@ function NuoyougEmpirefeatures() {
         
         </div>
         </div>
-        
-        
-       <button>contact us</button>
     
     </div>
+
+       <div>
+       <button> <Link to="/book">add booking</Link>  </button>
+    </div>
+      
     </div>
   )
 }

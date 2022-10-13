@@ -5,6 +5,7 @@ import carpark from '../hyat/carpark.jpg'
 import entrance from '../hyat/entrance.jpg'
 import chips from '../hyat/chips.jpg'
 import NavBar from './NavBar';
+import { Link } from 'react-router-dom'
 
 function GrandHyattfeatures() {
   return (
@@ -52,10 +53,11 @@ function GrandHyattfeatures() {
         
         </div>
         </div>
-        
-        
-       <button>contact us</button>
-    
+      
+     <div>
+       <button> <Link to="/book">add booking</Link>  </button>
+    </div>
+
     </div>
   
   )

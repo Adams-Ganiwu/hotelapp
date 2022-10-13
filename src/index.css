@@ -3,6 +3,13 @@
   width: 100%;
 }
 
+.check{
+  color: black;
+}
+
+
+
+
 .navbar{
   height: 20vh;
  
@@ -17,13 +24,15 @@
   width: 50%;
 }
 
-.ganew{
-  font-size:10px;
+.ganew {
+  font-size:5px;
   font-weight: lighter;
   text-decoration:#000;
 }
 
-
+.check{
+  color: #000;
+}
 
 .bg{
   background-color: blue;
@@ -53,7 +62,8 @@
 }
 .card p{
   margin: 5px;
-  font-size: 25px;
+  font-size: 15px;
+  color: whitesmoke;
 }
 .card button{
   font-size: 20px;
@@ -128,7 +138,17 @@ h2{color: white;
 }
 p{
   color:rgb(0, 192, 205);
-  font-size:15 ;
+  font-size:10 ;
+}
+
+.dams{
+  text-align: center;
+ 
+}
+
+.gam{
+  text-align: center;
+  
 }
 
 img{
@@ -213,3 +233,13 @@ form>button:active {
 a {
   text-decoration: none;
 }
+
+
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+

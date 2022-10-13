@@ -1,8 +1,7 @@
 
 
 import React from 'react'
-
-
+import {FaSignOutAlt} from 'react-icons/fa'
 function NavBar() {
   return (
     <div>
@@ -21,9 +20,9 @@ function NavBar() {
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/addhotel">Addhotel
+          <a class="nav-link active" href="/addhotel">Addhotel</a>
             <span class="visually-hidden">(current)</span>
-          </a>
+          
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/about">Contact</a>
@@ -42,7 +41,12 @@ function NavBar() {
                  <span class="visually-hidden">(current)</span>
         </li>
         <li class="nav-item">
-                <a class="nav-link active" href="/register"></a>
+                <a class="nav-link active" href="/register">Register</a>
+                 <span class="visually-hidden">(current)</span>
+        </li>
+        
+        <li class="nav-item">
+                <a class="nav-link active" href="/">logout <FaSignOutAlt/></a>
                  <span class="visually-hidden">(current)</span>
         </li>
         

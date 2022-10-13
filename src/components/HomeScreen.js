@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
 import {Link} from 'react-router-dom'
-
 import Dellagio from '../Screenshots/Dellagio.png';
 import Nuoyong  from '../Screenshots/Nuoyong.png';
 import dubaiimage from '../Screenshots/dubaiimage.jpeg';
@@ -16,7 +15,7 @@ function HomeScreen() {
     
 
     
-          <div className="card">
+          <div className="card bg-primary">
             <h5>Dellagio Hotel</h5>
           <img className='della' src={Dellagio} alt="no" />
            <div className='ganew'>
@@ -24,7 +23,7 @@ function HomeScreen() {
           <p>gps:xw-0005-6785</p>
           <p>prices ranging from Ghc100 to Ghc350</p>
 
-            <p> <Link to="/dela"> Checkout features </Link></p>
+            <p> <Link className='check' to="/dela"> Checkout features </Link></p>
             </div>
         </div>
       
@@ -33,15 +32,15 @@ function HomeScreen() {
     
 
    
-      <div className='card'>
+      <div className='card bg-primary'>
          <h5>Nuoyong empire hotel</h5>
         <div>
           <img className='della' src={Nuoyong} alt="no" />
-           <div className='ganew'>
+           <div className='gane'>
           <p>location:wa maseRD Sombo residences</p>
             <p>gps:xw-0005-6785</p>
             <p>prices ranging from Ghc80 to Ghc250</p>
-              <p> <Link to="/nuoyong"> Checkout features </Link></p>
+              <p className='check'> <Link className='check' to="/nuoyong"> Checkout features </Link></p>
               </div>
         </div>
       </div>
@@ -50,7 +49,7 @@ function HomeScreen() {
     
 
     
-      <div className='card'>
+      <div className='card bg-primary'>
       <h5>Royal Cosy Hills Hotel</h5>
         <div>
           <img className='della' src={dubaiimage} alt="no" />
@@ -58,7 +57,7 @@ function HomeScreen() {
           <p>location:Jirapa residences</p>
               <p>gps:xw-0005-6785</p>
               <p>prices ranging from Ghc150 to Ghc650</p>
-                <p> <Link to="/dubaifeatures"> Checkout features </Link></p>
+                <p className='check'> <Link className='check' to="/dubaifeatures"> Checkout features </Link></p>
                 </div>
         </div>
       </div>
@@ -67,7 +66,7 @@ function HomeScreen() {
     
 
     
-        <div className='card'>
+        <div className='card bg-primary'>
           <h5>Grand Hyat Hotel</h5>
         
           <img className='della' src={Grand} alt="no" />
@@ -75,7 +74,7 @@ function HomeScreen() {
           <p>location:Opposit SSNIT residences</p>
           <p>gps:xw-0005-6785</p>
           <p>prices ranging from Ghc100 to Ghc300 </p>
-          <p> <Link to="/grandhyatt"> Checkout features </Link></p>
+          <p className='check'> <Link className='check' to="/grandhyatt"> Checkout features </Link></p>
        </div>
       </div>
 </div>

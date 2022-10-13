@@ -5,6 +5,7 @@ import dellagiofntspc from '../della/dellagiofntspc.jpg';
 import foods from '../della/foods.jpg';
 import reception from '../della/reception.jpg';
 import NavBar from './NavBar';
+import {Link} from 'react-router-dom'
 
 function Delafeature() {
   return (
@@ -54,9 +55,9 @@ function Delafeature() {
         </div>
         </div>
         
-        
-       <button>contact us</button>
-    
+        <div>
+       <button> <Link to="/book">add booking</Link>  </button>
+    </div>
     </div>
   )
 }
